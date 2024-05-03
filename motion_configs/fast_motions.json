@@ -18,11 +18,11 @@
         },
 	"foreground_images": {
 		"png_dataset": {
-			"path": "/rds/general/user/sl220/home/data/COCO/foreground",
+			"path": "data/COCO/foreground",
 			"proportion": 0.8
 		},	
 		"coco_dataset": {
-			"path": "/rds/general/user/sl220/home/data/COCO/background",
+			"path": "data/COCO/background",
 			"proportion": 0.2
 		},	
 		"min_num": 5,
@@ -30,7 +30,7 @@
     },
 	"background_images": {
 		"coco_dataset": {
-			"path": "/rds/general/user/sl220/home/data/COCO/background"
+			"path": "data/COCO/background"
 		}	
     }
  }

@@ -10,7 +10,7 @@
         },
 	"background_images": {
 		"coco_dataset": {
-			"path": "/rds/general/user/sl220/home/data/COCO/background/"
+			"path": "data/COCO/background/"
 		}	
     },
 	"camera_params": {

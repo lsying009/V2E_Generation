@@ -18,11 +18,11 @@
         },
 	"foreground_images": {
 		"png_dataset": {
-			"path": "/home/sl220/Documents/data/EVData/COCO/foreground",
+			"path": "data/COCO/foreground",
 			"proportion": 0.8
 		},	
 		"coco_dataset": {
-			"path": "/home/sl220/Documents/data/EVData/COCO/background/",
+			"path": "data/COCO/background/",
 			"proportion": 0.2
 		},	
 		"min_num": 10,
@@ -30,7 +30,7 @@
     },
 	"background_images": {
 		"coco_dataset": {
-			"path": "/home/sl220/Documents/data/EVData/COCO/background/"
+			"path": "data/COCO/background/"
 		}	
     },
 	"camera_params": {
