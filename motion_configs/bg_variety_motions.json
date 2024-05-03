@@ -1,0 +1,26 @@
+{
+    "name": "background_motions",
+    "background_params": {
+        "bg_min_ang_velocity_deg": 0,
+        "bg_max_ang_velocity_deg": 45,
+        "bg_min_velocity": 0.1,
+        "bg_max_velocity": 40,
+        "bg_growthmin": 1.0,
+        "bg_growthmax": 1.5
+        },
+	"background_images": {
+		"coco_dataset": {
+			"path": "/rds/general/user/sl220/home/data/COCO/background/"
+		}	
+    },
+	"camera_params": {
+		"contrast_threshold_mean":0.75,
+		"ct_diff_sigma":0.1,
+		"min_C":0.01,
+		"max_C":8,
+		"hard_c_t_sigmas":0.0001,
+		"refractory_period_ns":1000000,
+		"sim_framerate":60
+	}
+ }
+

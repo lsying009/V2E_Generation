@@ -1,0 +1,46 @@
+{
+    "name": "single_motions",
+	"foreground_params": {
+		"fg_min_ang_velocity_deg": 0,
+		"fg_max_ang_velocity_deg": 15.0,
+		"fg_min_velocity": 5,
+		"fg_max_velocity": 80,
+		"fg_growthmin": 0.3,
+		"fg_growthmax": 0.9
+		},
+    "background_params": {
+		"bg_min_ang_velocity_deg": 0,
+		"bg_max_ang_velocity_deg": 5,
+		"bg_min_velocity": 0.5,
+		"bg_max_velocity": 10,
+		"bg_growthmin": 1.0,
+		"bg_growthmax": 1.5
+        },
+	"foreground_images": {
+		"png_dataset": {
+			"path": "/rds/general/user/sl220/home/data/COCO/foreground",
+			"proportion": 0.8
+		},	
+		"coco_dataset": {
+			"path": "/rds/general/user/sl220/home/data/COCO/background/",
+			"proportion": 0.2
+		},	
+		"min_num": 1,
+		"max_num" : 1
+    },
+	"background_images": {
+		"coco_dataset": {
+			"path": "/rds/general/user/sl220/home/data/COCO/background/"
+		}	
+    },
+	"camera_params": {
+		"contrast_threshold_mean":0.75,
+		"ct_diff_sigma":0.1,
+		"min_C":0.01,
+		"max_C":8,
+		"hard_c_t_sigmas":0.0001,
+		"refractory_period_ns":1000000,
+		"sim_framerate":60
+	}
+ }
+

@@ -1,0 +1,37 @@
+{
+    "name": "medium_motions",
+    "foreground_params": {
+		"fg_min_ang_velocity_deg": 0,
+		"fg_max_ang_velocity_deg": 15.0,
+		"fg_min_velocity": 20,
+		"fg_max_velocity": 80,
+		"fg_growthmin": 0.3,
+		"fg_growthmax": 0.9
+        },
+    "background_params": {
+		"bg_min_ang_velocity_deg": 0,
+		"bg_max_ang_velocity_deg": 15,
+		"bg_min_velocity": 5,
+		"bg_max_velocity": 25,
+		"bg_growthmin": 1.0,
+		"bg_growthmax": 1.5
+        },
+	"foreground_images": {
+		"png_dataset": {
+			"path": "/rds/general/user/sl220/home/data/COCO/foreground",
+			"proportion": 0.8
+		},	
+		"coco_dataset": {
+			"path": "/rds/general/user/sl220/home/data/COCO/background",
+			"proportion": 0.2
+		},	
+		"min_num": 5,
+		"max_num" : 10
+    },
+	"background_images": {
+		"coco_dataset": {
+			"path": "/rds/general/user/sl220/home/data/COCO/background/"
+		}	
+    }
+ }
+
